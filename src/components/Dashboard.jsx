@@ -26,28 +26,28 @@ function Dashboard({data}) {
 {/* navebar ends here */}
      
      <div className='row2 pl-5 mt-0'>
-        <h1 className='col-5 text-dark' style={{marginTop:'-30px'}} id='sales'>Sales Information</h1>
+        <h1 className='col-5 ' style={{marginTop:'-30px'}} id='sales'>Sales Information</h1>
     <div className='salse d-flex gap-4 pl-3' >
        <div>
-       <label className='inf text-dark' form='Customer' id='Customer'>Customer</label>
+       <label className='inf ' form='Customer' id='Customer'>Customer</label>
        <br />
        <input type='text' className='inside' placeholder='Enter Costumer Name'/>
        </div>
 
        <div>
-       <label className='inf text-dark' form='Customer' id='Customer'>Invoice ID</label>
+       <label className='inf ' form='Customer' id='Customer'>Invoice ID</label>
        <br />
        <input type='text' className='inside' placeholder='Enter Invoice ID'/>
        </div>
 
        <div>
-       <label className='inf text-dark' form='Customer' id='Customer'>Start Date</label>
+       <label className='inf ' form='Customer' id='Customer'>Start Date</label>
        <br />
        <input type='text' className='inside' placeholder='Start Date'/>
        </div>
 
        <div>
-       <label className=' inf text-dark' form='Customer' id='Customer'>End Date</label>
+       <label className=' inf ' form='Customer' id='Customer'>End Date</label>
        <br />
        <input type='text' className='inside' placeholder='End Date'/>
        </div>
@@ -62,11 +62,11 @@ function Dashboard({data}) {
       <th scope='col'>
          <img src="/src/assets/minus-square.svg" alt="" />
       </th>
-      <th className='det text-dark '>Invoice ID</th>
-      <th  className='det text-dark'>Date</th>
-      <th  className='det text-dark' >Customer</th>
-      <th  className='det text-dark'>Payable Amount</th>
-      <th  className='det text-dark' >Payable Amount</th>
+      <th className='det  '>Invoice ID</th>
+      <th  className='det '>Date</th>
+      <th  className='det ' >Customer</th>
+      <th  className='det '>Payable Amount</th>
+      <th  className='det ' >Payable Amount</th>
     </tr>
   </thead>
   <tbody>

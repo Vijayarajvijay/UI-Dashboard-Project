@@ -11280,3 +11280,67 @@
     width: 100%;
   }
   
+
+  .d-flex{
+    padding-right: 20px;
+}
+.navbar-nav{
+    border-right: 1px solid black;
+    width: 230px;
+    height: 1149px;
+    
+}
+
+
+
+.search{
+    display: inline-block;
+    margin:50px 20px ;
+    width:600px;
+    height:52px;
+    border: 1px solid rgb(223, 209, 209);
+    border-radius: 5px;
+}
+.row1{
+    width: 1200px;
+    margin-left: 15px;
+
+}
+#sales{
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+.inside{
+    width: 266px;
+    height:50px;
+    border: 1px solid rgb(223, 209, 209);
+    border-radius: 5px;
+    outline: navajowhite;
+    
+}
+.inf{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+#wrapper{
+    /* width: 1430px ; */
+    height:1149px;
+    
+}
+.table{
+    overflow-y:hidden;
+    width: 1130px !important;
+    height: 744px !important;
+    border: rgb(241, 237, 237);
+    margin: 70px 0px 0px 30px;
+    
+
+}
+/* .det{
+    text-decoration: none;
+    color: black;
+    
+} */
