@@ -1,5 +1,5 @@
 import React from 'react'
-import Sidebar from './components/sidebar.jsx'
+import Sidebar from './components/Sidebar.jsx'
 import Dashboard from './components/Dashboard.jsx'
 import { useState } from 'react'
 
