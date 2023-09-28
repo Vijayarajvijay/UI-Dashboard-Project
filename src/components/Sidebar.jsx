@@ -26,7 +26,7 @@ function sidebar() {
             <li className="nav-item" >
                 <a className="nav-link  text-dark" href="#" >
                     <div className='d-flex gap-3 justify-content-center'>
-                 <img className='icon'  src='/src/assets/lab test icon.svg' ></img>   
+                 <img className='icon'  src='/src/assets/lab test icon.svg' />  
                     
                    <span className='topic'>  Lab Test</span>
                     </div>
