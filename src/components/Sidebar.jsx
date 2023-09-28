@@ -13,7 +13,7 @@ function sidebar() {
             
            <li className="nav-item active ">
                 <a className="nav-link" href="index.html">
-                   <img  src="/src/components/dashboard icon.svg" alt="dashboard icon" /> &nbsp;  &nbsp;
+                   <img  src="../components/images/dashboard icon.svg" alt="dashboard icon" /> &nbsp;  &nbsp;
                        <span className='text-primary'>Dashboard</span></a>
             </li>
 
