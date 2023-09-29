@@ -29,7 +29,7 @@ function Dashboard({data}) {
 {/* navebar ends here */}
      
      <div className='row2 pl-5 mt-0'>
-        <h1 className='col-5 text-dark ' style={{marginTop:'-30px'}} id='sales'>Sales Information</h1>
+        <h1 className=' text-dark col-xl' style={{marginTop:'-30px'}} id='sales'>Sales Information</h1>
     <div className='salse d-flex gap-4 pl-3' >
        <div>
        <label className='inf ' form='Customer' id='Customer'>Customer</label>

@@ -60,12 +60,12 @@ function sidebar() {
            
     
             
-            <li className="nav-item" >
+            <li className="nav-item " >
                 <a className="nav-link  text-dark" href="#" >
                     <div className='d-flex gap-3 justify-content-center' style={{paddingLeft:"35px"}}>
                  <img className='icon'  src={medicine} ></img>   
                     
-                   <span className='topic'>  Medicine Order</span>
+                   <span className='topi'>  Medicine Order</span>
                     </div>
                 </a>
                
