@@ -1,4 +1,6 @@
 import React from 'react'
+import dashboard from "./images/dashboard icon.svg"
+import labtest from "./images/lab test icon.svg"
 
 function sidebar() {
   return (
@@ -13,7 +15,7 @@ function sidebar() {
             
            <li className="nav-item active ">
                 <a className="nav-link" href="index.html">
-                   <img  src="../components/images/dashboard icon.svg" alt="dashboard icon" /> &nbsp;  &nbsp;
+                   <img  src={dashboard} alt="dashboard icon" /> &nbsp;  &nbsp;
                        <span className='text-primary'>Dashboard</span></a>
             </li>
 
@@ -26,7 +28,7 @@ function sidebar() {
             <li className="nav-item" >
                 <a className="nav-link  text-dark" href="#" >
                     <div className='d-flex gap-3 justify-content-center'>
-                 <img className='icon'  src='' />  
+                 <img className='icon'  src={labtest} />  
                     
                    <span className='topic'>  Lab Test</span>
                     </div>
