@@ -19,7 +19,7 @@ function sidebar() {
             </div>
 
             
-           <li className="nav-item active ">
+           <li className="nav-item active  ">
                 <a className="nav-link" href="index.html">
                    <img  src={dashboard} alt="dashboard icon" /> &nbsp;  &nbsp;
                        <span className='text-primary'>Dashboard</span></a>
