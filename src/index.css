@@ -11340,4 +11340,7 @@
     
 
 }
+.table>:not(:last-child)>:last-child>* {
+  border-bottom-color:rgba(255, 255, 255, 0.75)
+}
 
