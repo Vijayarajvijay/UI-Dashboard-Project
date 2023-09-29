@@ -1,6 +1,12 @@
 import React from 'react'
 import dashboard from "./images/dashboard icon.svg"
 import labtest from "./images/lab test icon.svg"
+import appoint from './images/appoinment icon.svg'
+import medicine from './images/medicien icon.svg'
+import messege from './images/messege icon.svg'
+import payment from './images/payment icon.svg'
+import settings from './images/setting  icon.svg'
+import help from './images/help icon.svg'
 
 function sidebar() {
   return (
@@ -40,7 +46,7 @@ function sidebar() {
             <li className="nav-item" >
                 <a className="nav-link  text-dark" href="#" >
                     <div className='d-flex gap-3 justify-content-center' style={{paddingLeft:"25px"}}>
-                 <img className='icon'  src='/src/assets/appoinment icon.svg' ></img>   
+                 <img className='icon'  src={appoint} ></img>   
                     
                    <span className='topic'>Appointment</span>
                     </div>
@@ -57,7 +63,7 @@ function sidebar() {
             <li className="nav-item" >
                 <a className="nav-link  text-dark" href="#" >
                     <div className='d-flex gap-3 justify-content-center' style={{paddingLeft:"35px"}}>
-                 <img className='icon'  src='/src/assets/medicien icon.svg' ></img>   
+                 <img className='icon'  src={medicine} ></img>   
                     
                    <span className='topic'>  Medicine Order</span>
                     </div>
@@ -69,7 +75,7 @@ function sidebar() {
             <li className="nav-item" >
                 <a className="nav-link  text-dark" href="#" >
                     <div className='d-flex gap-3 justify-content-center'>
-                 <img className='icon'  src='/src/assets/messege icon.svg' ></img>   
+                 <img className='icon'  src={messege}></img>   
                     
                    <span className='topic'>Message</span>
                     </div>
@@ -81,7 +87,7 @@ function sidebar() {
             <li className="nav-item" >
                 <a className="nav-link  text-dark" href="#" >
                     <div className='d-flex gap-3 justify-content-center'>
-                 <img className='icon'  src='/src/assets/payment icon.svg' ></img>   
+                 <img className='icon'  src={payment}></img>   
                     
                    <span className='topic'>  Payment</span>
                     </div>
@@ -92,7 +98,7 @@ function sidebar() {
             <li className="nav-item" >
                 <a className="nav-link  text-dark" href="#" >
                     <div className='d-flex gap-3 justify-content-center'>
-                 <img className='icon'  src='/src/assets/setting  icon.svg' ></img>   
+                 <img className='icon'  src={settings}></img>   
                     
                    <span className='topic'>  Settings</span>
                     </div>
@@ -103,7 +109,7 @@ function sidebar() {
             </div>
 
             <div className='d-flex justify-content-center gap-3 ' style={{paddingTop:'600px'}}>
-                <img src="/src/assets/help icon.svg" alt="" />
+                <img src={help} alt="" />
             <span className='text-dark'> Help</span>
             </div>
             </ul>

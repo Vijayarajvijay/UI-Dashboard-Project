@@ -1,4 +1,7 @@
 import React from 'react'
+import search from './images/search icon.svg'
+import notify from './images/notification icon.svg'
+import squre from './images/minus-square.svg'
 
 function Dashboard({data}) {
   return (
@@ -14,19 +17,19 @@ function Dashboard({data}) {
 
      }}>
         <div className='m-2'>
-       <img src="/src/assets/search icon.svg" alt="search" />
+       <img src={search}alt="search" />
        <input type="text" placeholder='search'  style={{outline:'none', border:'0', color:'gray',}}/>
        </div>
      </div>
      <div className=' align-items-end' style={{marginLeft:'690px', marginTop:'60px'}}> 
-        <img src="/src/assets/notification icon.svg" alt="" />
+        <img src={notify} alt="" />
      </div>
     
      </nav>
 {/* navebar ends here */}
      
      <div className='row2 pl-5 mt-0'>
-        <h1 className='col-5 ' style={{marginTop:'-30px'}} id='sales'>Sales Information</h1>
+        <h1 className='col-5 text-dark ' style={{marginTop:'-30px'}} id='sales'>Sales Information</h1>
     <div className='salse d-flex gap-4 pl-3' >
        <div>
        <label className='inf ' form='Customer' id='Customer'>Customer</label>
@@ -59,14 +62,16 @@ function Dashboard({data}) {
      <table class="table" >
   <thead >
     <tr >
-      <th scope='col'>
-         <img src="/src/assets/minus-square.svg" alt="" />
+      <th >
+         <img src={squre} alt="" />
       </th>
-      <th className='det  '>Invoice ID</th>
-      <th  className='det '>Date</th>
-      <th  className='det ' >Customer</th>
-      <th  className='det '>Payable Amount</th>
-      <th  className='det ' >Payable Amount</th>
+      <th>Invoice ID</th>
+      <th>Date</th>
+      <th >Customer</th>
+      <th >Payable Amount</th>
+      <th >Payable Amount</th>
+      <th>Due</th>
+
     </tr>
   </thead>
   <tbody>
@@ -74,13 +79,14 @@ function Dashboard({data}) {
    data.map((e,i)=>{
       return <tr key={i}>
          <td>
-            <img src="/src/assets/minus-square.svg" alt="" />
+            <img src={ squre }alt="" />
          </td>
-         <td> {e.InvoiceID}</td>
-         <td> {e.Date}</td>
+         <td className='text-primary fw-6'> {e.InvoiceID}</td>
+         <td > {e.Date}</td>
          <td> {e.Customer}</td>
          <td> {e.PayableAmount}</td>
          <td> {e.PaidAmount}</td>
+         <td> {e.Due}</td>
        
       </tr>
    })

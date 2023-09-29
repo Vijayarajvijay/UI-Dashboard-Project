@@ -11324,6 +11324,7 @@
     font-size: 16px;
     font-weight: 600;
     margin-top: 30px;
+    color: #000;
 }
 #wrapper{
     /* width: 1430px ; */
@@ -11339,8 +11340,3 @@
     
 
 }
-/* .det{
-    text-decoration: none;
-    color: black;
-    
-} */
