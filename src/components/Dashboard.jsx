@@ -10,7 +10,7 @@ function Dashboard({data}) {
   <div className='container-fluid '>
 
    {/* navebar starts here */}
-    <nav className='row1  d-flex '>
+    <nav className=' d-flex ' style={{width:"1100px"}}>
    
      <div className='search ' style={{
        
@@ -21,16 +21,16 @@ function Dashboard({data}) {
        <input type="text" placeholder='search'  style={{outline:'none', border:'0', color:'gray',}}/>
        </div>
      </div>
-     <div className=' align-items-end' style={{marginLeft:'690px', marginTop:'60px'}}> 
+     <div className=' align-items-end' style={{marginLeft:'500px', marginTop:'60px'}}> 
         <img src={notify} alt="" />
      </div>
     
      </nav>
 {/* navebar ends here */}
      
-     <div className='row2 pl-5 mt-0'>
+     <div className='cus ' style={{width:"500px"}}>
         <h1 className=' text-dark col-xl' style={{marginTop:'-30px'}} id='sales'>Sales Information</h1>
-    <div className='salse d-flex gap-4 pl-3' >
+    <div className='salse d-flex gap-4 ' >
        <div>
        <label className='inf ' form='Customer' id='Customer'>Customer</label>
        <br />
@@ -59,7 +59,7 @@ function Dashboard({data}) {
 
      </div>
      
-     <table class="table" >
+     <table class="table"  style={{height:"650px",marginTop:"30px",width:"1100px"}}>
   <thead >
     <tr >
       <th >

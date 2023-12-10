@@ -11,7 +11,7 @@ import help from './images/help icon.svg'
 function sidebar() {
   return (
    <>
-   <ul className="navbar-nav bg-gradient sidebar sidebar-dark accordion  " id="accordionSidebar">
+   <ul className="navbar-nav bg-gradient sidebar sidebar-dark accordion   " style={{height:'1070px'}} id="accordionSidebar">
      
             <div className="sidebar-brand d-flex align-items-center justify-content-center mt-5" >
                
@@ -108,7 +108,7 @@ function sidebar() {
 
             </div>
 
-            <div className='d-flex justify-content-center gap-3 ' style={{paddingTop:'600px'}}>
+            <div className='d-flex justify-content-center gap-3 ' style={{paddingTop:'500px'}}>
                 <img src={help} alt="" />
             <span className='text-dark'> Help</span>
             </div>
