@@ -84,7 +84,7 @@ function App() {
   ])
   return (
     <>
-    <div id="wrapper" style={{width:'100%',height:"1070px"}} >
+    <div id="wrapper" style={{width:'100%',height:"920px"}} >
       <Sidebar/> 
       <>
       <Dashboard data={data}/>
